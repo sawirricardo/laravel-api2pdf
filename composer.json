@@ -63,10 +63,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Sawirricardo\\Api2pdf\\Api2pdfServiceProvider"
+                "Sawirricardo\\Laravel\\Api2pdf\\Api2pdfServiceProvider"
             ],
             "aliases": {
-                "Api2pdf": "Sawirricardo\\Api2pdf\\Facades\\Api2pdf"
+                "Api2pdf": "Sawirricardo\\Laravel\\Api2pdf\\Facades\\Api2pdf"
             }
         }
     },
