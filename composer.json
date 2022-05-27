@@ -36,9 +36,11 @@
     },
     "autoload": {
         "psr-4": {
-            "Sawirricardo\\Laravel\\Api2pdf\\": "src",
-            "Sawirricardo\\Laravel\\Api2pdf\\Database\\Factories\\": "database/factories"
-        }
+            "Sawirricardo\\Laravel\\Api2pdf\\": "src"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
     },
     "autoload-dev": {
         "psr-4": {
