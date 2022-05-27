@@ -6,11 +6,15 @@ use Api2Pdf\Api2Pdf as Client;
 
 class Api2pdf
 {
-    /**
-     * @return Client
-     */
+    private Client $client;
+
     public function __construct(array $config)
     {
-        return new Client($config['api_key']);
+        $this->client = new Client($config['api_key']);
+    }
+
+    public function client(): Client
+    {
+        return $this->client;
     }
 }
