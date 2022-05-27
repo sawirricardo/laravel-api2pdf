@@ -1,3 +1,7 @@
 # Changelog
 
 All notable changes to `laravel-api2pdf` will be documented in this file.
+
+## 0.0.1 - 2022-05-27
+
+Initial release
