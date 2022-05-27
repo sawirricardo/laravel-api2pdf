@@ -1,9 +1,7 @@
 <?php
 
-namespace Sawirricardo\Api2pdf;
+namespace Sawirricardo\Laravel\Api2pdf;
 
-use Sawirricardo\Api2pdf\Commands\Api2pdfCommand;
-use Sawirricardo\Laravel\Api2pdf\Api2pdf;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
@@ -18,8 +16,7 @@ class Api2pdfServiceProvider extends PackageServiceProvider
          */
         $package
             ->name('laravel-api2pdf')
-            ->hasConfigFile()
-            ->hasCommand(Api2pdfCommand::class);
+            ->hasConfigFile();
     }
 
     public function registeringPackage()
