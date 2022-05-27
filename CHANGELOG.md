@@ -2,6 +2,10 @@
 
 All notable changes to `laravel-api2pdf` will be documented in this file.
 
+## 0.0.4 - 2022-05-27
+
+Fix namespace on helpers
+
 ## 0.0.3 - 2022-05-27
 
 Hotfix namespace
