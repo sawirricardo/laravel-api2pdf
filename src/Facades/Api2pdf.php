@@ -1,11 +1,11 @@
 <?php
 
-namespace Sawirricardo\laravel\Api2pdf\Facades;
+namespace Sawirricardo\Api2pdf\Laravel\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Sawirricardo\Api2pdf\Api2pdf
+ * @see \Sawirricardo\Api2pdf\Laravel\Api2pdf
  */
 class Api2pdf extends Facade
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Sawirricardo\Laravel\Api2pdf\Tests;
+namespace Sawirricardo\Api2pdf\Laravel\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;

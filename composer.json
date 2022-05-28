@@ -36,7 +36,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Sawirricardo\\Laravel\\Api2pdf\\": "src"
+            "Sawirricardo\\Api2pdf\\Laravel\\": "src"
         },
         "files": [
             "src/helpers.php"
@@ -44,7 +44,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Sawirricardo\\Laravel\\Api2pdf\\Tests\\": "tests"
+            "Sawirricardo\\Api2pdf\\Laravel\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -63,10 +63,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Sawirricardo\\Laravel\\Api2pdf\\Api2pdfServiceProvider"
+                "Sawirricardo\\Api2pdf\\Laravel\\Api2pdfServiceProvider"
             ],
             "aliases": {
-                "Api2pdf": "Sawirricardo\\Laravel\\Api2pdf\\Facades\\Api2pdf"
+                "Api2pdf": "Sawirricardo\\Api2pdf\\Laravel\\Facades\\Api2pdf"
             }
         }
     },
