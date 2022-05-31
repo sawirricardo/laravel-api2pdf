@@ -21,7 +21,7 @@ class Api2pdfServiceProvider extends PackageServiceProvider
 
     public function registeringPackage()
     {
-        $this->app->singleton(Api2pdf::class, function () {
+        $this->app->singleton('laravel-api2pdf', function () {
             return new Api2pdf(config('api2pdf'));
         });
     }
