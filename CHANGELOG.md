@@ -2,6 +2,10 @@
 
 All notable changes to `laravel-api2pdf` will be documented in this file.
 
+## 0.1.2 - 2022-06-01
+
+downgrade laravel-package-tools to 1.8.0
+
 ## 0.1.1 - 2022-06-01
 
 - downgrade to php 8.0
