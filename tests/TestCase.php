@@ -2,19 +2,14 @@
 
 namespace Sawirricardo\Api2pdf\Laravel\Tests;
 
-use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Sawirricardo\Api2pdf\Api2pdfServiceProvider;
+use Sawirricardo\Api2pdf\Laravel\Api2pdfServiceProvider;
 
 class TestCase extends Orchestra
 {
     protected function setUp(): void
     {
         parent::setUp();
-
-        Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'Sawirricardo\\Api2pdf\\Database\\Factories\\'.class_basename($modelName).'Factory'
-        );
     }
 
     protected function getPackageProviders($app)
