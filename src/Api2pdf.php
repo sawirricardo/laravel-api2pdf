@@ -17,4 +17,9 @@ class Api2pdf
     {
         return $this->client;
     }
+
+    public function new(): static
+    {
+        return $this;
+    }
 }
