@@ -1,6 +1,6 @@
-[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/support-ukraine.svg?t=1" />](https://supportukrainenow.org)
-
 # [Api2pdf](https://api2pdf.com) wrapper
+
+![Laravel Api2Pdf](https://banners.beyondco.de/laravel-api2pdf.png?theme=light&packageManager=composer+require&packageName=sawirricardo%2Flaravel-api2pdf&pattern=bankNote&style=style_1&description=Use+Api2Pdf+in+your+Laravel+apps&md=1&showWatermark=0&fontSize=100px&images=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg)
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/sawirricardo/laravel-api2pdf.svg?style=flat-square)](https://packagist.org/packages/sawirricardo/laravel-api2pdf)
 [![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/sawirricardo/laravel-api2pdf/run-tests?label=tests)](https://github.com/sawirricardo/laravel-api2pdf/actions?query=workflow%3Arun-tests+branch%3Amain)
