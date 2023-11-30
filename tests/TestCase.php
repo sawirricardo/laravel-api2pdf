@@ -1,9 +1,9 @@
 <?php
 
-namespace Sawirricardo\Api2pdf\Laravel\Tests;
+namespace Blackpig\Api2pdf\Laravel\Tests;
 
 use Orchestra\Testbench\TestCase as Orchestra;
-use Sawirricardo\Api2pdf\Laravel\Api2pdfServiceProvider;
+use Blackpig\Api2pdf\Laravel\Api2pdfServiceProvider;
 
 class TestCase extends Orchestra
 {

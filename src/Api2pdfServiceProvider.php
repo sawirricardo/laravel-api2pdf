@@ -1,6 +1,6 @@
 <?php
 
-namespace Sawirricardo\Api2pdf\Laravel;
+namespace Blackpig\Api2pdf\Laravel;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;

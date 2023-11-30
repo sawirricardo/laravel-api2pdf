@@ -1,6 +1,6 @@
 The MIT License (MIT)
 
-Copyright (c) sawirricardo <sawir.ricardo@gmail.com>
+Copyright (c) blackpig <sawir.ricardo@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

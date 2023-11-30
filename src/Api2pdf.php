@@ -1,6 +1,6 @@
 <?php
 
-namespace Sawirricardo\Api2pdf\Laravel;
+namespace Blackpig\Api2pdf\Laravel;
 
 use Api2Pdf\Api2Pdf as Client;
 
