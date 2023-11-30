@@ -4,7 +4,7 @@
     "keywords": [
         "Blackpig",
         "laravel",
-        "api2pdf"
+        "laravel-api2pdf"
     ],
     "homepage": "https://github.com/blackpig/laravel-api2pdf",
     "license": "MIT",
@@ -17,6 +17,7 @@
     ],
     "require": {
         "php": "^8.1",
+        "api2pdf/api2pdf.php": "^2.0",
         "illuminate/contracts": "^10.0",
         "spatie/laravel-package-tools": "^1.14.0"
     },
@@ -32,7 +33,10 @@
     "autoload": {
         "psr-4": {
             "Blackpig\\Laravel-Api2Pdf\\": "src/"
-        }
+        },
+        "files": [
+            "src/helpers.php"
+        ]
     },
     "autoload-dev": {
         "psr-4": {
@@ -57,7 +61,10 @@
         "laravel": {
             "providers": [
                 "Blackpig\\Laravel-Api2Pdf\\Api2pdfServiceProvider"
-            ]
+            ],
+            "aliases": {
+                "Api2pdf": "Blackpig\\Api2pdf\\Laravel\\Facades\\Api2pdf"
+            }
         }
     },
     "minimum-stability": "dev",
